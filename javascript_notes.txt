@@ -17,3 +17,12 @@
 > 40+8+23-10
 61 
 
+##############
+
+# 01-Fundamentals-Part-1
+
+- 
+- use 'let' to declare a variable
+- use '===' for equality check
+- alert() for popup
+- console.log() to print on console in Developer Tools
