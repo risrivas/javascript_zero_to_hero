@@ -21,8 +21,10 @@
 
 # 01-Fundamentals-Part-1
 
-- 
 - use 'let' to declare a variable
+- variable can't start with number
+- never put variable name as "name" as its reserved keyword but still can be used
 - use '===' for equality check
 - alert() for popup
 - console.log() to print on console in Developer Tools
+
