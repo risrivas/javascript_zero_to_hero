@@ -21,10 +21,40 @@
 
 # 01-Fundamentals-Part-1
 
+####################
+# Values and Variables
+####################
+
 - use 'let' to declare a variable
 - variable can't start with number
 - never put variable name as "name" as its reserved keyword but still can be used
 - use '===' for equality check
 - alert() for popup
 - console.log() to print on console in Developer Tools
+- text can be in single quotes or double quotes
 
+
+####################
+# Data Types
+####################
+
+Object or Primitives
+
+- 7 primitives
+Number = everything is float
+String
+Boolean = true or false
+Undefined = empty value
+Null
+Symbol = immutable value
+BigInt = same as BigInteger in java
+
+- Dynamic typing: only use let to declare variables
+- typeof <variable> is used to get the type of variable
+
+- bug in JS
+console.log(typeof null)
+
+returns object
+
+- 
