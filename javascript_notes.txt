@@ -57,4 +57,35 @@ console.log(typeof null)
 
 returns object
 
-- 
+
+####################
+# Declare variables
+####################
+
+- let
+used for normal variables which can change value
+
+- const
+constant value
+
+- var
+never use it in modern js - because it is not scoped in blocks
+
+- without let, const or var - creates a property on global object
+ex:
+lastName = 'Srivastava';
+console.log(lastName);
+
+this will work
+
+
+
+
+
+
+
+
+
+
+
+
