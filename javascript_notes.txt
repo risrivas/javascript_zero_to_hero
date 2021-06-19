@@ -76,7 +76,33 @@ ex:
 lastName = 'Srivastava';
 console.log(lastName);
 
-this will work
+this will work, but should never be used
+
+
+####################
+# Basic Operators
+####################
+
+- console.log can be used with comma 
+- output will be space separated
+
+const ageJonas = 2037 - 1991;
+const ageSarah = 2037 - 2018;
+console.log(ageJonas, ageSarah);
+
+output: 
+46 19
+
+- can use all math operators: +-*/ **  
+console.log(ageJonas * 2, ageSarah / 10, 2 ** 3);
+
+- string concatenation is done using +
+const firstName = 'Rishi';
+const lastName = 'Srivastava';
+console.log(firstName + ' ' + lastName);
+
+- compound assignments are supported: += -= *= /= ++ --
+- comparison operators: < > >= <= === 
 
 
 
