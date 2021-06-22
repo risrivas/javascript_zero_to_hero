@@ -103,6 +103,10 @@ console.log(firstName + ' ' + lastName);
 
 - compound assignments are supported: += -= *= /= ++ --
 - comparison operators: < > >= <= === 
+- for documentation use: "mdn operator precedence" in google
+- can define 2 variables at the same line
+let x, y;
+
 
 
 
