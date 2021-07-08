@@ -74,7 +74,7 @@ Null
 Symbol = immutable value
 BigInt = same as BigInteger in java
 
-- Dynamic typing: only use let to declare variables
+- Dynamic typing: only use 'let' or 'const' to declare variables
 - typeof <variable> is used to get the type of variable
 
 - bug in JS
@@ -108,7 +108,7 @@ this will work, but should never be used
 # Basic Operators
 ####################
 
-- console.log can be used with comma
+- console.log() can be used with comma
 - output will be space separated
 
 const ageJonas = 2037 - 1991;
@@ -128,9 +128,9 @@ console.log(ageJonas * 2, ageSarah / 10, 2 ** 3);
 let x, y;
 
 
-####################
+################################
 # Strings and Template Literals
-####################
+################################
 
 - string concatenation is done using +
 const firstName = 'Rishi';
@@ -159,6 +159,18 @@ console.log(`String with
 multiple
 lines`);
 
+##########
+# If/Else
+##########
+
+- syntax is similar to other languages
+if (condition) {
+
+} else {
+
+}
+
+- insert emoji in windows - "Windows + ."
 
 
 
