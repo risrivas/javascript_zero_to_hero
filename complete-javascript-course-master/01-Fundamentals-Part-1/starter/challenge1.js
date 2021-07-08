@@ -22,6 +22,7 @@ m tall.
 
 // const markHeight = 78;
 // const markWeight = 1.69;
+/*
 const markHeight = 95;
 const markWeight = 1.88;
 
@@ -35,3 +36,4 @@ const johnBMI = johnWeight / (johnHeight ** 2);
 
 const markHigherBMI = markBMI > johnBMI;
 console.log("Mark has a higher BMI than John? Answer=" + markHigherBMI);
+*/

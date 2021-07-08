@@ -1,5 +1,7 @@
+#########################
 # Chrome Developer Tools
 # Ctrl-Shift-I
+#########################
 
 # Console
 
@@ -12,18 +14,40 @@
 > js = 'boring'
 
 > if (js === 'amazing') alert('JavaScript is FUN!')
-# no alert 
+# no alert
 
 > 40+8+23-10
-61 
+61
+
+################
+# Setup VS Code
+################
+
+# set Color Theme to "Monokai Pro"
+- left pane - bottom "Manage" => Color Theme => Chose "Monokai Pro"
+- if not present, left pane - "Extensions" => "Monokai Pro" and install
+
+OR else use "Monokai Classic" which does not require any installation
+
+# VS Code settings
+- left pane - "Manage" - "Settings"
+
+AutoSave = onFocusChange
+FontSize = 16 (optional)
+Multi Cursor Modifier = ctrlCmd
+Word Wrap = On
+Format On Save = check
+
+# Manage -> File Icon Theme
+Chose "Seti (Visual Studio Code)"
 
 ##############
 
 # 01-Fundamentals-Part-1
 
-####################
+#######################
 # Values and Variables
-####################
+#######################
 
 - use 'let' to declare a variable
 - variable can't start with number
@@ -31,7 +55,7 @@
 - use '===' for equality check
 - alert() for popup
 - console.log() to print on console in Developer Tools
-- text can be in single quotes or double quotes
+- text can be in single quotes or double quotes or back ticks (``)
 
 
 ####################
@@ -44,6 +68,7 @@ Object or Primitives
 Number = everything is float
 String
 Boolean = true or false
+
 Undefined = empty value
 Null
 Symbol = immutable value
@@ -71,7 +96,7 @@ constant value
 - var
 never use it in modern js - because it is not scoped in blocks
 
-- without let, const or var - creates a property on global object
+- if use without let, const or var - creates a property on global object
 ex:
 lastName = 'Srivastava';
 console.log(lastName);
@@ -83,33 +108,56 @@ this will work, but should never be used
 # Basic Operators
 ####################
 
-- console.log can be used with comma 
+- console.log can be used with comma
 - output will be space separated
 
 const ageJonas = 2037 - 1991;
 const ageSarah = 2037 - 2018;
 console.log(ageJonas, ageSarah);
 
-output: 
+output:
 46 19
 
-- can use all math operators: +-*/ **  
+- can use all math operators: +-*/ **
 console.log(ageJonas * 2, ageSarah / 10, 2 ** 3);
+
+- compound assignments are supported: += -= *= /= ++ --
+- comparison operators: < > >= <= ===
+- for documentation use: "mdn operator precedence" in google
+- can define 2 variables at the same line
+let x, y;
+
+
+####################
+# Strings and Template Literals
+####################
 
 - string concatenation is done using +
 const firstName = 'Rishi';
 const lastName = 'Srivastava';
 console.log(firstName + ' ' + lastName);
 
-- compound assignments are supported: += -= *= /= ++ --
-- comparison operators: < > >= <= === 
-- for documentation use: "mdn operator precedence" in google
-- can define 2 variables at the same line
-let x, y;
+- use back ticks `` for template literals and use ${} to wrap a variable
+ex:
 
+const jonas = "I'm " + firstName + ', a ' + (year - birthYear) + " years old " + job + '!';
+console.log(jonas);
 
+const jonasNew = `I'm ${firstName}, a ${(year - birthYear)} years old ${job}!`;
+console.log(jonasNew);
 
+- back ticks can be used `` for all strings - no need to use '' or ""
 
+- String with multiple lines - use \n\ at the end of each line
+ex:
+console.log('String with \n\
+multiple \n\
+lines');
+
+- easier way : use back ticks again
+console.log(`String with
+multiple
+lines`);
 
 
 
