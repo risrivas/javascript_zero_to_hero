@@ -24,6 +24,7 @@ m tall.
 m tall.
 */
 
+/*
 const markWeight = 78;
 const markHeight = 1.69;
 // const markWeight = 95;
@@ -43,3 +44,4 @@ if (markBMI > johnBMI) {
     console.log(`John's BMI (${johnBMI.toFixed(1)}) is higher than Mark's (${markBMI.toFixed(1)})!`);
 }
 
+*/

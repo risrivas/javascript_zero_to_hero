@@ -159,6 +159,7 @@ console.log(`String with
 multiple
 lines`);
 
+
 ##########
 # If/Else
 ##########
@@ -178,6 +179,52 @@ number.toFixed(n)
 
 example:
 console.log(`Mark's BMI (${markBMI.toFixed(1)}) is higher than John's (${johnBMI.toFixed(1)})!`);
+
+
+###############################
+# Type Conversion and Coercion
+###############################
+- Conversion : when we manually convert from one type to another
+- Coercion : javascript implicitly converts behind the scenes
+
+# conversion
+- convert a string to number - similar to Integer.parseInt() in Java
+Number('1991') => 1991
+Number('Jonas') => NaN
+
+- wierd:
+console.log(typeof NaN); // returns 'number'
+
+- convert a number to string
+String(23) => '23'
+
+- can only convert number, string, boolean
+
+# coercion
+- if a string is used with a number with + sign, number is converted to string
+console.log('I am ' + 23 + ' years old'); // converts 23 to String
+console.log(1991 + '23'); // 199123
+console.log('23' + '10' + 3); // 23103
+
+- however, if there is any other sign (-*/), it will use numbers
+console.log('23' - '10' - 3); // 10
+console.log('23' + '10' - 3); // 2307
+
+console.log('23' * '2'); // 46
+console.log('46' / '2'); // 23
+console.log('23' > '10'); // true
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
