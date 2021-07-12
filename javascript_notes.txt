@@ -172,6 +172,14 @@ if (condition) {
 
 - insert emoji in windows - "Windows + ."
 
+## Challenge 2
+- round of float numbers to display only n decimals can be done by
+number.toFixed(n)
+
+example:
+console.log(`Mark's BMI (${markBMI.toFixed(1)}) is higher than John's (${johnBMI.toFixed(1)})!`);
+
+
 
 
 
