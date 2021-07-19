@@ -227,12 +227,25 @@ console.log(Boolean(undefined)); // false
 
 
 #################################
-# Equaility operators: == vs ===
+# Equality operators: == vs ===
 #################################
+- Tripe equals (===) is strict equality - does NOT allow type coercion
+- Double equals (==) does type coercion
+- best practice is to use triple equals (===)
+- example:
+18 === 18 // true
+'18' === 18 // false
 
+18 == 18 // true
+'18' == 18 // true
 
+- use prompt() to get user input - similar to input() in python
+prompt("What's your favorite number?")
 
+- convert the input to number:
+Number(prompt("What's your favorite number?"))
 
+- similarly for negating, !== (strict) and != (lose)
 
 
 
