@@ -23,7 +23,16 @@
 # Setup VS Code
 ################
 
-# set Color Theme to "Monokai Pro"
+# add Extension
+Prettier - Code formatter
+
+# Settings
+- Set Default Formatter to Prettier ...
+- format on save - ON
+- auto save - onFocusChange
+- tab size = 2
+
+# set Color Theme to "Monokai Pro" Or "One Monokai Theme"
 - left pane - bottom "Manage" => Color Theme => Chose "Monokai Pro"
 - if not present, left pane - "Extensions" => "Monokai Pro" and install
 
