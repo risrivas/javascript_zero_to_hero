@@ -178,7 +178,7 @@ if (height) {
     console.log('Height is UNDEFINED!');
 }
 
-*/
+
 
 const age = 18;
 if (age === 18) {
@@ -191,3 +191,11 @@ const favorite = prompt("What's your favorite number?");
 console.log(favorite);
 console.log(typeof favorite);
 
+*/
+
+const hasDriverLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);

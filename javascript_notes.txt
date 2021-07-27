@@ -183,7 +183,7 @@ if (condition) {
 - insert emoji in windows - "Windows + ."
 
 ## Challenge 2
-- round of float numbers to display only n decimals can be done by
+- rounding of floating numbers to display only n decimals can be done by
 number.toFixed(n)
 
 example:
@@ -257,6 +257,11 @@ Number(prompt("What's your favorite number?"))
 - similarly for negating, !== (strict) and != (lose)
 
 
+####################
+# Boolean operators
+####################
+- basic = AND (&&), OR (||), NOT (!)
+- NOT operator has highest precedence
 
 
 
