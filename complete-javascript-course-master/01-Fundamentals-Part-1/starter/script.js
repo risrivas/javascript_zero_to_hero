@@ -191,7 +191,7 @@ const favorite = prompt("What's your favorite number?");
 console.log(favorite);
 console.log(typeof favorite);
 
-*/
+
 
 const hasDriverLicense = true;
 const hasGoodVision = false;
@@ -199,3 +199,4 @@ const hasGoodVision = false;
 console.log(hasDriverLicense && hasGoodVision);
 console.log(hasDriverLicense || hasGoodVision);
 console.log(!hasDriverLicense);
+*/
