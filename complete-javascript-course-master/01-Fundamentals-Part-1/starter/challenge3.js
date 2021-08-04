@@ -43,26 +43,26 @@ Test data:
 // const koalasScore3 = 123;
 
 // Bonus 2
-const dolphinsScore1 = 97;
-const dolphinsScore2 = 112;
-const dolphinsScore3 = 101;
+// const dolphinsScore1 = 97;
+// const dolphinsScore2 = 112;
+// const dolphinsScore3 = 101;
 
-const koalasScore1 = 109;
-const koalasScore2 = 95;
-const koalasScore3 = 106;
+// const koalasScore1 = 109;
+// const koalasScore2 = 95;
+// const koalasScore3 = 106;
 
-const dolphinsAverage = (dolphinsScore1 + dolphinsScore2 + dolphinsScore3) / 3;
-const koalasAverage = (koalasScore1 + koalasScore2 + koalasScore3) / 3;
+// const dolphinsAverage = (dolphinsScore1 + dolphinsScore2 + dolphinsScore3) / 3;
+// const koalasAverage = (koalasScore1 + koalasScore2 + koalasScore3) / 3;
 
-console.log(`Dolphins Average Score: ${dolphinsAverage}`);
-console.log(`Koalas Average Score: ${koalasAverage}`);
+// console.log(`Dolphins Average Score: ${dolphinsAverage}`);
+// console.log(`Koalas Average Score: ${koalasAverage}`);
 
-if (dolphinsAverage < koalasAverage && koalasAverage > 100) {
-  console.log("Koalas WIN");
-} else if (dolphinsAverage > koalasAverage && dolphinsAverage > 100) {
-  console.log("Dolphins WIN");
-} else if (dolphinsAverage === koalasAverage && dolphinsAverage > 100) {
-  console.log("Its a DRAW");
-} else {
-  console.log("No winner");
-}
+// if (dolphinsAverage < koalasAverage && koalasAverage > 100) {
+//   console.log("Koalas WIN");
+// } else if (dolphinsAverage > koalasAverage && dolphinsAverage > 100) {
+//   console.log("Dolphins WIN");
+// } else if (dolphinsAverage === koalasAverage && dolphinsAverage > 100) {
+//   console.log("Its a DRAW");
+// } else {
+//   console.log("No winner");
+// }

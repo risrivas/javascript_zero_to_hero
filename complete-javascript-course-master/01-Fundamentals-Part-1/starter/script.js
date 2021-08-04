@@ -200,3 +200,14 @@ console.log(hasDriverLicense && hasGoodVision);
 console.log(hasDriverLicense || hasGoodVision);
 console.log(!hasDriverLicense);
 */
+
+const day = "monday";
+switch (day) {
+  case "monday":
+    console.log("Bench press day");
+    break;
+
+  default:
+    console.log("not a valid day");
+    break;
+}
