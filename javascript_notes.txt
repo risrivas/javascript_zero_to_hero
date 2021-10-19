@@ -264,6 +264,19 @@ Number(prompt("What's your favorite number?"))
 - NOT operator has highest precedence
 
 
+####################
+# switch statements
+####################
+- syntax similar to other languages
+switch (key) {
+    case value:
+
+        break;
+
+    default:
+        break;
+}
+
 
 
 
