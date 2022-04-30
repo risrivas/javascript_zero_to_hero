@@ -77,15 +77,30 @@ Chose "Seti (Visual Studio Code)"
 #######################
 # Values and Variables
 #######################
-
+- using semicolon ; at the end of each line is good coding practice
 - use 'let' to declare a variable
-- variable can't start with number
+- variable can't start with number but can use _ or $
 - never put variable name as "name" as its reserved keyword but still can be used
 - use '===' for equality check
 - alert() for popup
 - console.log() to print on console in Developer Tools
 - text can be in single quotes or double quotes or back ticks (``)
 
+
+## Assignment 1
+LECTURE: Values and Variables
+1. Declare variables called 'country', 'continent' and 'population' and
+assign their values according to your own country (population in millions)
+2. Log their values to the console
+
+# Solution
+let country = "India";
+let continent = "Asia";
+let population = 200_000_000;
+
+console.log(country);
+console.log(continent);
+console.log(population);
 
 ####################
 # Data Types
