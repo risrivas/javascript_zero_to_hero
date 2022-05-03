@@ -105,26 +105,34 @@ console.log(population);
 ####################
 # Data Types
 ####################
+- value can be Object or Primitive
+- Object:
+let me = {
+    name: 'Jonas'
+};
 
-Object or Primitives
+- Primitives
+let firstName = 'Jonas';
+let age = 30;
+let fullAge = true;
 
 - 7 primitives
 Number = everything is float
 String
 Boolean = true or false
 
-Undefined = empty value
-Null
+Undefined = empty value (just declared, like: let children;)
+Null = empty value
 Symbol = immutable value
 BigInt = same as BigInteger in java
 
+- comments are // or /* */ - same as java
 - Dynamic typing: only use 'let' or 'const' to declare variables
 - typeof <variable> is used to get the type of variable
 
 - bug in JS
 console.log(typeof null)
-
-returns object
+returns object, should return null
 
 
 ####################
